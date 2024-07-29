@@ -13,6 +13,7 @@ nav {
     height: 50px;
     width: 75px;
     background-size: cover;
+    
 }
 
 .nav.container {
@@ -20,7 +21,7 @@ nav {
 }
 
 .nav-Item {
-    
+    border: 1px solid;
     padding: 8px;
 }
 
