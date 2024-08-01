@@ -4,7 +4,6 @@ nav {
     
     display: flex;
     justify-content: center;
-    /* justify-content: space-between; */
     padding: 12px;
     align-items: center;
 }
@@ -146,20 +145,3 @@ button[type="submit"]:hover {
     background-color: #555;
     color: white;
 }
-
-/* input{ */
-    /* width: 75%; */
-    /* padding: 12px 20px; */
-    /* margin: 8px 0; */
-    /* display: inline-block; */
-    /* border: 2px solid #ccc; */
-    /* border-radius: 4px; */
-    /* box-sizing: border-box; */
-/* } */
-
-/* button{ */
-    /* width: 75%; */
-    /* height: 32px; */
-    /* background-color: aliceblue; */
-    /* border: none; */
-/* } */
