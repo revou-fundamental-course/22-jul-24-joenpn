@@ -9,16 +9,19 @@
 </head>
 <body>
     <nav>
+        
         <header>
             <div class="logo-icon">
                 <img src="asset\logo.jpg"class="logo-icon"/>
             </div>
         </header>
+
             <section class="nav-container">
                 <a class="nav-Item">Home</a>
                 <a class="nav-Item">Sale</a>
                 <a class="nav-Item">Contact</a>
             </section>
+            
     </nav>
     <main>
         <article class="main-title">
@@ -34,7 +37,14 @@
         <section class="main-content">
             <article class="main-content-item">
                 <div class="main-content-banner"></div>
-                <img src="asset\pesawat1.jpeg"class="main-content-banner"/>
+                <!-- <div class="container"> -->
+                <div class="wrapper">
+                    <img src="asset\pesawat1.jpeg">
+                    <img src="asset\hotel1.jpeg">
+                    <img src="asset\hotel2.jpeg">
+                    <img src="asset\pantai1.jpeg">
+                </div>
+                <!-- <img src="asset\pesawat1.jpeg"class="main-content-banner"/> -->
                 <p style="margin:10px; padding:5px;"></p>
                 <i> "Liburan menjadi menyenangkan bersama Travel JoenPn"</i>
                 <p style="margin:10px; padding:5px;"></p>
@@ -80,7 +90,7 @@
         
             </article>
             <div class="kontak-form">
-                <h3>Kirim Pesan</h3>
+                <pre><h2>Kirim Pesan</h2></pre>
                 <form>
                     <div class="form-group">
                         <input type="text" placeholder="Nama Anda" required>
@@ -93,12 +103,9 @@
                     </div>
                     <button type="submit">Kirim Pesan</button>
                 </form>
+                
             </div>
 
-            <form class="main-content-item">
-                <!-- <input type="text" /> -->
-                <!-- <button type="button">Submit</button> -->
-            </form>
     </main>
 </body>
 </html>
